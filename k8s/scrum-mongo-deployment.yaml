@@ -37,7 +37,7 @@ spec:
           claimName: scrum-mongo-pvc
       - name: mongo-dump
         hostPath:
-          path: "/home/akayass/dump/db/export"  # Chemin sur la VM
+          path: "/home/akayass/dump/db/mongo-dump"  # Mettre à jour le chemin sur la VM
           type: Directory
 ---
 apiVersion: v1

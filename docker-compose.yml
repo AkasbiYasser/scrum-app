@@ -27,7 +27,7 @@ services:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
-      - /home/akayass/dump/db/export:/dump/db/export  # Montre le répertoire local au conteneur
+      - /home/akayass/dump/db/mongo-dump:/dump/db/export  # Mettre à jour le répertoire monté
     environment:
       MONGO_INITDB_ROOT_USERNAME: hamza
       MONGO_INITDB_ROOT_PASSWORD: hamza
