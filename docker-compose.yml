@@ -7,9 +7,9 @@ services:
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATA_MONGODB_URI: mongodb://hamza:hamza@mongo:27017/scrumdb?authSource=admin
+      SPRING_DATA_MONGODB_URI: mongodb://hamza:hamza@scrum-mongo-service:27017/scrumdb?authSource=admin
     depends_on:
-      - mongo
+      - scrum-mongo-service
     networks:
       - scrum
 
@@ -21,14 +21,13 @@ services:
     networks:
       - scrum
 
-  mongo:
+  scrum-mongo-service:
     build: ./database  # Construire l'image à partir du Dockerfile dans ./database
     image: akasbiacrpfa.azurecr.io/scrum-mongo:latest
     ports:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
-      # Retirer le montage du volume si ce n'est pas nécessaire
     environment:
       MONGO_INITDB_ROOT_USERNAME: hamza
       MONGO_INITDB_ROOT_PASSWORD: hamza
