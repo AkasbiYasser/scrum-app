@@ -14,9 +14,11 @@ spec:
       labels:
         app: scrum-mongo
     spec:
+      imagePullSecrets:
+      - name: scrum-secret  # Ajoutez cette ligne pour utiliser le secret
       containers:
       - name: scrum-mongo
-        image: mongo:latest
+        image: <acr-name>.azurecr.io/mongo:latest  # Remplacez par l'image appropriée
         ports:
         - containerPort: 27017
         env:
@@ -30,14 +32,14 @@ spec:
         - name: mongo-data
           mountPath: /data/db
         - name: mongo-dump
-          mountPath: /dump/db/export  # Le chemin à l'intérieur du conteneur où vos données seront accessibles
+          mountPath: /dump/db/export
       volumes:
       - name: mongo-data
         persistentVolumeClaim:
           claimName: scrum-mongo-pvc
       - name: mongo-dump
         hostPath:
-          path: "/home/akayass/dump/db/mongo-dump"  # Mettre à jour le chemin sur la VM
+          path: "/home/akayass/dump/db/mongo-dump"
           type: Directory
 ---
 apiVersion: v1

@@ -1,0 +1,28 @@
+_id,username,password,roles[0].name,_class,roles[0]._id,firstName,lastName,email,status
+66a14298897ddc71ab4bb872,ttt,$2a$10$PlFh3zzWGyVQCffKTq0eRONmoc31B1ibgB5bSYZWN5ro5H/0GObYi,Employee,com.example.scrumbackend.models.User,,,,,
+66a14504897ddc71ab4bb874,wow,$2a$10$HflJEhaCrZF.M0WEyq.wRegjRNl/tuxn2Gx0UGzcvhmSBJiTNXYYW,Manager,com.example.scrumbackend.models.User,,,,,
+66a151d8897ddc71ab4bb877,man,$2a$10$ctz7O1SUg8GmC36Xu.Q2reo7RNYVtkeuJatGWa/5DbduLdqbm32L2,Manager,com.example.scrumbackend.models.User,,,,,
+66a2413d897ddc71ab4bb87b,man,$2a$10$yIiv2SAkBy2MmO2La/qHB.Rlmk6uXTAj7X1XTtnFC.Xcva0ACsrd2,Employee,com.example.scrumbackend.models.User,,,,,
+66a2ed24897ddc71ab4bb87c,vv,$2a$10$.kge.JoF9/ohkRQw9L05x.OSpivxM3KTiqvVqZbE.w659YHsk2ab.,Employee,com.example.scrumbackend.models.User,,,,,
+66a65ee8f8bb0520e564965a,hhh,$2a$10$JNmIn3IWrbBns9LdzDeCPOo1vRBXAQ43QfmZTpELghnzbWuXOXHvu,Employee,com.example.scrumbackend.models.User,66a65e92c6256a4be87eba63,,,,
+66a65f47f8bb0520e564965b,hhhh,$2a$10$i3VM7ksfaxTQGMsb2KqF8..Cc5LXkOu2YWeFEVop/aedE/hnQ/KMu,Manager,com.example.scrumbackend.models.User,66a65e38c6256a4be87eba61,,,,
+66a65f6cf8bb0520e564965c,miw,$2a$10$FuvPdQGzfzrppjbYEmeg2.qeMe.HB0lwIw4AHLYidC70aMKxzEnly,Employee,com.example.scrumbackend.models.User,66a65e92c6256a4be87eba63,,,,
+66a65f87f8bb0520e564965d,mow,$2a$10$jXQ4OLbd6lc1HuMoofC0Kugap6rVmaVJlnQdRuPyU2dXLGMpAg5x2,Manager,com.example.scrumbackend.models.User,66a65e38c6256a4be87eba61,,,,
+66a663c2f8bb0520e564965e,bbb,$2a$10$Ligz/lNmXkVzgj0WwlRZquhFbmlYCfcp4d4DzF/fzj0OqPmnKpKx.,Employee,com.example.scrumbackend.models.User,66a65e92c6256a4be87eba63,,,,
+66a663d1f8bb0520e564965f,bbbb,$2a$10$CfRcgLRTsDdyetCDKEMwSeWOyqs0UBtIfDPAzse49TZOcpNvdJa9e,Manager,com.example.scrumbackend.models.User,66a65e38c6256a4be87eba61,,,,
+66a666c0f8bb0520e5649660,t1,$2a$10$jTPvmAIh1uUezh8R9tmNR.z0av384KaFXd2Xzy74bnckMHIIBZJX6,Employee,com.example.scrumbackend.models.User,66a65e92c6256a4be87eba63,,,,
+66a666d3f8bb0520e5649661,t2,$2a$10$ngIZH.ortVjmtEbM6nd3.emPev9XrfXSlSqyrH3hoPpyU28Yq6GTK,Manager,com.example.scrumbackend.models.User,66a65e38c6256a4be87eba61,,,,
+66a67593f8bb0520e5649662,t3,$2a$10$qnb.OGT89RASxPXfpSy.vePErk2qn6Khex9MuV0DLxuBft0L.S/kW,Employee,com.example.scrumbackend.models.User,66a65e92c6256a4be87eba63,,,,
+66a675f4f8bb0520e5649663,t4,$2a$10$Uj.pp9annJd5LlefaFcyX.OjDjB.d6RI7A.BJrpbt8T40BfGnVYk6,Manager,com.example.scrumbackend.models.User,66a65e38c6256a4be87eba61,,,,
+66a67676f8bb0520e5649664,anas1,$2a$10$8CAUWABmawBab7vYqaQMSu2fQIUdTbtDHdoQZ5W4xhSVKHvSFjBXK,Manager,com.example.scrumbackend.models.User,66a65e38c6256a4be87eba61,,,,
+66a810113ba85b35cbcdd3df,sss,$2a$10$NQNYOblC4Ed6VOnCLuykpe7Rgmh/V.B/rWShjIdb9AlRqNlTEM7K.,Manager,com.example.scrumbackend.models.User,unique-id-1,,,,
+66ac0361e30bf1778cfa93ef,anaza,$2a$10$iPRpwNx7YypWB1pS0sUzuuNGltfAL7lsHeMaI7x6dEg6KsH1t7f7q,,com.example.scrumbackend.models.Employee,,anas ,elb,anaselb@gmail.com,cloud
+66ad0f4f7626745edf1b71a9,testeur,$2a$10$craxYnqfnrOf2St0h6OfmeAlnicfb.sZUV2bg/XbJDG1rojPyLQkO,Employee,com.example.scrumbackend.models.Employee,,testeur,testeur,testeur@gmail.com,testeur
+66aedb89efc1e613e0cc4d00,lwlaid,$2a$10$cNVg0HQSHK1.i8I3hE.D2ugknY/YK31.Bx.vmIVbVM5.D/IfjKwTC,Employee,com.example.scrumbackend.models.Employee,,mohammed,elbellaj,moh@m.com,lwlaid
+66af04f2ce00d700b60387e4,lwalida,$2a$10$Tz4naEdwFJ9NeltiL2HWzeD/cReHqMlc0rlWi4RFRi38pJt2r8SQ.,Employee,com.example.scrumbackend.models.Employee,,lwalida,lwalida,l@l.l,lwalida
+66af069bce00d700b60387e6,ana,$2a$10$.xto8qb549SYC.jefS4haOIUFPj8pLqYBNK1rszloA3nXdNzVDci.,Employee,com.example.scrumbackend.models.Employee,,ana,bella,ana@bella.com,khhhh
+66afa93bce00d700b60387e9,salah,$2a$10$T6ByffoLrQrziG7SrLRUuOsoVjW2QMbo.um9A6UdOqGyHX2TGKUN.,Employee,com.example.scrumbackend.models.Employee,,salah,salah,elbellaj.hamza@emsi-edu.ma,Dev
+66b2cb6cab20387bbf8ff4e9,sari,$2a$10$iDazU7xBI2wQiFYi5n8gUewkLKhHYhGMmEidzVPOYDOf4dwC8NLLa,Employee,com.example.scrumbackend.models.User,,,,,
+66b2ccf5ab20387bbf8ff4ea,nvv,$2a$10$IhtGUf4M9UarhGPuEOM5IePwq54Sodpo2CzwEuBD26P5t30630A7y,Employee,com.example.scrumbackend.models.Employee,,nvvvvv,nnnn,nadiroussama405@gmail.com,dev
+66b357cef2dad92f49239c10,hassan,$2a$10$75Wu1reVVYMzurUwKH8AuuSeeI8wcJVaFFaWF70U1pQZjnVqnP3xO,Employee,com.example.scrumbackend.models.Employee,,hassan,hassan,hassan@gmail.com,SAP
+66b54ed5f2dad92f49239c19,gresa,$2a$10$RgJpCKjnjPoAkMlaDLQNmea8cPVgf0uj7qxt./J3mqayx5yFW6Hze,Employee,com.example.scrumbackend.models.Employee,,yasser,aksbi,yass@yass.com,Cloud DevOPs

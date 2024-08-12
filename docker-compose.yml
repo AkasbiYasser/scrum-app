@@ -22,12 +22,13 @@ services:
       - scrum
 
   mongo:
-    image: mongo:latest
+    build: ./database  # Utiliser le Dockerfile dans le dossier database
     ports:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
-      - /home/akayass/dump/db/mongo-dump:/dump/db/export  # Mettre à jour le répertoire monté
+      # Commenter ou supprimer la ligne suivante
+      # - /home/akayass/dump/db/mongo-dump:/dump/db/export  # Mettre à jour le répertoire monté
     environment:
       MONGO_INITDB_ROOT_USERNAME: hamza
       MONGO_INITDB_ROOT_PASSWORD: hamza

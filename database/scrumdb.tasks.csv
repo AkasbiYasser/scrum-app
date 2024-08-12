@@ -1,0 +1,27 @@
+_id,title,description,assignedTo,sprintId,status,_class
+66abb91a9972e43c46ad919a,Développer la fonctionnalité de connexion,Créer une page de connexion pour les utilisateurs jjjjj.,66ac0361e30bf1778cfa93ef,66abe3b07f7ba0468f496f72,Not Started,com.example.scrumbackend.models.Task
+66abbbf7450297613017925c,tache hahah,dddd,66ab0cc02972da7b46a7d025,66aafd962a23607a13b2e42f,Completed,com.example.scrumbackend.models.Task
+66abbdcc450297613017925d,tttttt,trttughjk,66ab0cc02972da7b46a7d025,66aafd962a23607a13b2e42f,In Progress,com.example.scrumbackend.models.Task
+66abbf36450297613017925e,rdtgubhknljbhvg,yguhijnkl,66ab0cc02972da7b46a7d025,66aafd962a23607a13b2e42f,Not Started,com.example.scrumbackend.models.Task
+66abc42d4502976130179261,tyb l3cha,bach bina nt3chaw?,66abc3ee4502976130179260,66abc3b8450297613017925f,Completed,com.example.scrumbackend.models.Task
+66abe2e17f7ba0468f496f6f,testtach,testtach desc,66ab0cc02972da7b46a7d025,66aafd962a23607a13b2e42f,In Progress,com.example.scrumbackend.models.Task
+66abe3ea7f7ba0468f496f73,yugkl,uygijknl,66ab0cc02972da7b46a7d025,66abe3b07f7ba0468f496f72,In Progress,com.example.scrumbackend.models.Task
+66abe44c36414a616a03d7f8,ahmza,uyghjb,66abe42b36414a616a03d7f7,66abe3b07f7ba0468f496f72,Not Started,com.example.scrumbackend.models.Task
+66abe55a36414a616a03d7fa,rdtfghknl,"yugjikn,l",66abc3ee4502976130179260,66abe3b07f7ba0468f496f72,Not Started,com.example.scrumbackend.models.Task
+66abe5d036414a616a03d7fb,zzzzzzz,zzzzzzz,66abe42b36414a616a03d7f7,66abe3b07f7ba0468f496f72,Completed,com.example.scrumbackend.models.Task
+66abe6388cd7ef43ee9ee7f1,hahahahahhaha,yarrrrbi ikhdm,66abe42b36414a616a03d7f7,66abe3b07f7ba0468f496f72,Completed,com.example.scrumbackend.models.Task
+66abeed083e2cc527946bff4,drftghb,fgcvhb n,66abc3ee4502976130179260,66abee8883e2cc527946bff3,In Progress,com.example.scrumbackend.models.Task
+66ac1db572c5236c86bd5616,waaaa399,tygujk,66ac1dd072c5236c86bd5617,66ac1da372c5236c86bd5615,In Progress,com.example.scrumbackend.models.Task
+66ae4b9f82a2287fb936e4ad,trdgjhbk,tyfughbjk,66ad0f4f7626745edf1b71a9,66aafd962a23607a13b2e42f,Not Started,com.example.scrumbackend.models.Task
+66ae70bf68f8456f1d675e95,yufjb,hbjkn,66ad0f4f7626745edf1b71a9,66abe3b07f7ba0468f496f72,Not Started,com.example.scrumbackend.models.Task
+66ae843068f8456f1d675e97,waaaaaaamiiiiiii,tryugihjlk,66ad0f4f7626745edf1b71a9,66aafd962a23607a13b2e42f,Not Started,com.example.scrumbackend.models.Task
+66aedb71efc1e613e0cc4cff,soub7ana llah ,allaho akbar,66b2ccf5ab20387bbf8ff4ea,66aafd962a23607a13b2e42f,Completed,com.example.scrumbackend.models.Task
+66af0515ce00d700b60387e5,tire tache lwlaida,dec tache lwlaida,66af04f2ce00d700b60387e4,66aafd962a23607a13b2e42f,In Progress,com.example.scrumbackend.models.Task
+66afaa28ce00d700b60387ea,tache 1 : page paiement,bghina backroud k7al,66afa93bce00d700b60387e9,66afa8d0ce00d700b60387e8,In Progress,com.example.scrumbackend.models.Task
+66b0dee4d4e917463f69b31a,gad lia lpage register,description,66b0de70d4e917463f69b319,66b0de0fd4e917463f69b318,Completed,com.example.scrumbackend.models.Task
+66b2837aab20387bbf8ff4e4,kanban,kanban,66ad0f4f7626745edf1b71a9,66abe3b07f7ba0468f496f72,Not Started,com.example.scrumbackend.models.Task
+66b290a4ab20387bbf8ff4e5,creer un page material ui,en utilisant react,66b0de70d4e917463f69b319,66aafd962a23607a13b2e42f,Not Started,com.example.scrumbackend.models.Task
+66b290eaab20387bbf8ff4e6,tache kan ,kan,66b0de70d4e917463f69b319,66afa8d0ce00d700b60387e8,Not Started,com.example.scrumbackend.models.Task
+66b35b45f2dad92f49239c12,tache redirection,tan3i9 elik ahhahah,66b35aaff2dad92f49239c11,66b0de0fd4e917463f69b318,Completed,com.example.scrumbackend.models.Task
+66b3b403f2dad92f49239c16,tache connextion hou,test,66b357cef2dad92f49239c10,66b3b31af2dad92f49239c14,In Progress,com.example.scrumbackend.models.Task
+66b551e9f2dad92f49239c1a,api login / register flask ,rd lbal l back end,66b54ed5f2dad92f49239c19,66b54e64f2dad92f49239c18,Completed,com.example.scrumbackend.models.Task

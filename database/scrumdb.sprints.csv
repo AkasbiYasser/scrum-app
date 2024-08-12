@@ -1,0 +1,10 @@
+_id,name,description,startDate,endDate,status,tasks[0]._id,tasks[0].title,_class
+66aafd962a23607a13b2e42f,Tache connexion ,Projet N°1,2024-08-09T19:00:00.000Z,2024-08-21T19:00:00.000Z,Not Started,1722536677252,gkjn,com.example.scrumbackend.models.Sprint
+66abe3047f7ba0468f496f70,yughbkj,tfuhbjkn,2002-10-10T00:00:00.000Z,2002-10-12T00:00:00.000Z,Not Started,,,com.example.scrumbackend.models.Sprint
+66abe3b07f7ba0468f496f72,aaaaaaaa,aaaaaaa,2024-07-31T23:00:00.000Z,2024-08-23T23:00:00.000Z,Not Started,,,com.example.scrumbackend.models.Sprint
+66abee8883e2cc527946bff3,ziyad,yuhbjn,2024-07-31T22:00:00.000Z,2024-08-15T22:00:00.000Z,Completed,,,com.example.scrumbackend.models.Sprint
+66ac1da372c5236c86bd5615,waaaaaaaaa3teeee9,rdyuiojkl,2222-12-11T23:00:00.000Z,6545-05-03T23:00:00.000Z,Not Started,,,com.example.scrumbackend.models.Sprint
+66afa8d0ce00d700b60387e8,Srpint 1,projet scochpower,2024-08-03T22:00:00.000Z,2024-08-14T22:00:00.000Z,In Progress,,,com.example.scrumbackend.models.Sprint
+66b0de0fd4e917463f69b318,sprint2,Projet 4,2024-08-04T22:00:00.000Z,2024-08-15T22:00:00.000Z,Completed,,,com.example.scrumbackend.models.Sprint
+66b3b31af2dad92f49239c14,user login,Projet 2,2024-08-06T22:00:00.000Z,2024-08-14T22:00:00.000Z,Not Started,,,com.example.scrumbackend.models.Sprint
+66b54e64f2dad92f49239c18,Sprint 10000,Scotch Power,2024-08-08T22:00:00.000Z,2024-08-15T22:00:00.000Z,In Progress,,,com.example.scrumbackend.models.Sprint
