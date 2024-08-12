@@ -15,10 +15,10 @@ spec:
         app: scrum-mongo
     spec:
       imagePullSecrets:
-      - name: scrum-secret  # Ajoutez cette ligne pour utiliser le secret
+      - name: scrum-secret  # Utiliser le secret pour ACR
       containers:
       - name: scrum-mongo
-        image: <acr-name>.azurecr.io/mongo:latest  # Remplacez par l'image appropriée
+        image: akasbiacrpfa.azurecr.io/scrum-mongo:latest  # Utiliser l'image ACR
         ports:
         - containerPort: 27017
         env:
