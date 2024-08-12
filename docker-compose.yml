@@ -22,7 +22,8 @@ services:
       - scrum
 
   mongo:
-    image: akasbiacrpfa.azurecr.io/scrum-mongo:latest  # Utiliser l'image ACR
+    build: ./scrum-mongo  # Ajouter cette ligne pour construire l'image à partir de votre Dockerfile
+    image: akasbiacrpfa.azurecr.io/scrum-mongo:latest
     ports:
       - "27017:27017"
     volumes:
