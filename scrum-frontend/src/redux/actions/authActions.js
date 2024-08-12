@@ -3,7 +3,7 @@ import { LOGIN_SUCCESS, REGISTER_SUCCESS, REGISTER_FAILURE } from './types';
 
 export const login = (credentials) => async (dispatch) => {
   try {
-    const res = await axios.post('http://localhost:8080/api/auth/login', credentials);
+    const res = await axios.post('http://scrum-backend-service:8080/api/auth/register', credentials);
     const { token, roles, userId } = res.data; // Récupérez l'ID
     const userRole = roles[0].name;
 
