@@ -5,7 +5,7 @@ metadata:
   labels:
     app: scrum-frontend
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: scrum-frontend
@@ -19,6 +19,8 @@ spec:
         image: akasbiacrpfa.azurecr.io/scrum-frontend:latest
         ports:
         - containerPort: 80
+      imagePullSecrets:
+      - name: <secret-name>
 ---
 apiVersion: v1
 kind: Service

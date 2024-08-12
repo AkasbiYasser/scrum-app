@@ -5,7 +5,7 @@ metadata:
   labels:
     app: scrum-backend
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: scrum-backend
@@ -22,6 +22,8 @@ spec:
         env:
         - name: SPRING_DATA_MONGODB_URI
           value: "mongodb://hamza:hamza@mongo:27017/scrumdb?authSource=admin"
+      imagePullSecrets:
+      - name: scrum-secret
 ---
 apiVersion: v1
 kind: Service
