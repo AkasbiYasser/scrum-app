@@ -31,16 +31,11 @@ spec:
         volumeMounts:
         - name: mongo-data
           mountPath: /data/db
-        - name: mongo-dump
-          mountPath: /dump/db/export
+        # Retirer le volume 'mongo-dump' si ce n'est pas nécessaire
       volumes:
       - name: mongo-data
         persistentVolumeClaim:
           claimName: scrum-mongo-pvc
-      - name: mongo-dump
-        hostPath:
-          path: "/home/akayass/dump/db/mongo-dump"
-          type: Directory
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim

@@ -22,13 +22,13 @@ services:
       - scrum
 
   mongo:
-    build: ./database  # Ajouter cette ligne pour construire l'image à partir de votre Dockerfile
+    build: ./database  # Construire l'image à partir du Dockerfile dans ./database
     image: akasbiacrpfa.azurecr.io/scrum-mongo:latest
     ports:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
-      - /home/akayass/dump/db/mongo-dump:/dump/db/export
+      # Retirer le montage du volume si ce n'est pas nécessaire
     environment:
       MONGO_INITDB_ROOT_USERNAME: hamza
       MONGO_INITDB_ROOT_PASSWORD: hamza
