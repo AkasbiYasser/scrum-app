@@ -5,7 +5,7 @@ const SprintManagement = () => {
   const [sprints, setSprints] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:8080/api/sprints')
+    axios.get('http://20.164.56.175/api/sprints')
       .then(response => setSprints(response.data))
       .catch(error => console.error(error));
   }, []);
