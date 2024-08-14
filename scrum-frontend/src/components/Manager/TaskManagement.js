@@ -24,6 +24,7 @@ const TaskManagement = () => {
     const fetchTasksAndSprintsAndEmployees = async () => {
       try {
         const token = localStorage.getItem('token');
+	console.log(token);
         const tasksResponse = await axios.get('http://20.164.56.175/api/manager/tasks', {
           headers: { 'Authorization': `Bearer ${token}` }
         });
