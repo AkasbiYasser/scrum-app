@@ -4,3 +4,6 @@
 /front/node_modules
 /dist
 /.env
+helo hhhhhhhhhhh
+helooooooooooooooooooooooooo
+ql3qr lq;q khd; 

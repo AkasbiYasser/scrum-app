@@ -3,7 +3,8 @@ import { LOGIN_SUCCESS, REGISTER_SUCCESS, REGISTER_FAILURE } from './types';
 
 export const login = (credentials) => async (dispatch) => {
   try {
-    const res = await axios.post('http://20.164.56.175/api/auth/register', credentials);
+   
+ const res = await axios.post('http://20.164.56.175/api/auth/login', credentials);  
     const { token, roles, userId } = res.data; // Récupérez l'ID
     const userRole = roles[0].name;
 
