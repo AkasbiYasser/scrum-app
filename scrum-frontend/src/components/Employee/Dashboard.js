@@ -26,7 +26,7 @@ const Dashboard = () => {
   const fetchTasks = async () => {
     try {
       const token = localStorage.getItem('token');
-      const tasksResponse = await axios.get(`https://https://scrumflowpfa.tech/api/manager/tasks`, {
+      const tasksResponse = await axios.get(`https://scrumflowpfa.tech/api/manager/tasks`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const assignedTasks = tasksResponse.data.filter(task => task.assignedTo === employeeId);
