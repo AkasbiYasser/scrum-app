@@ -22,6 +22,8 @@ spec:
         env:
         - name: SPRING_DATA_MONGODB_URI
           value: "mongodb://hamza:hamza@scrum-mongo-service:27017/scrumdb?authSource=admin"
+        - name: JWT_SECRET
+          value: "hOtdIHv/JWFdJi4/z50t0FPXQBgZ935uscwjISTR4UA="  # Remplacez par la clé secrète générée
       imagePullSecrets:
       - name: scrum-secret
 ---
@@ -36,4 +38,3 @@ spec:
     - protocol: TCP
       port: 8080
       targetPort: 8080
-      
