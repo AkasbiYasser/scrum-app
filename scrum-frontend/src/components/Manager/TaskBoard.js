@@ -5,7 +5,7 @@ const TaskBoard = () => {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
-    axios.get('https://20.164.56.175/api/tasks')
+    axios.get('https://scrumflowpfa.tech/api/tasks')
       .then(response => setTasks(response.data))
       .catch(error => console.error(error));
   }, []);

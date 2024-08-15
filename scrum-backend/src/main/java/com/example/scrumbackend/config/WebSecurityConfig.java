@@ -65,7 +65,7 @@ public class WebSecurityConfig {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(Arrays.asList("https://scrum-frontend-service:3000", "https://localhost:3000", "https://20.164.56.175"));
+        config.setAllowedOrigins(Arrays.asList("https://scrum-frontend-service:3000", "https://localhost:3000", "https://scrumflowpfa.tech"));
         config.setAllowedHeaders(Arrays.asList("*"));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         source.registerCorsConfiguration("/**", config);

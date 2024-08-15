@@ -43,7 +43,7 @@ export const fetchEmployees = () => {
   return async (dispatch) => {
     dispatch(fetchEmployeesRequest());
     try {
-      const response = await axios.get('https://20.164.56.175/api/employees', {
+      const response = await axios.get('https://scrumflowpfa.tech/api/employees', {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }
@@ -58,7 +58,7 @@ export const fetchEmployees = () => {
 export const createEmployee = (newEmployee) => {
   return async (dispatch) => {
     try {
-      const response = await axios.post('https://20.164.56.175/api/employees', newEmployee, {
+      const response = await axios.post('https://scrumflowpfa.tech/api/employees', newEmployee, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }
@@ -73,7 +73,7 @@ export const createEmployee = (newEmployee) => {
 export const modifyEmployee = (employeeId, updatedEmployee) => {
   return async (dispatch) => {
     try {
-      const response = await axios.put(`https://20.164.56.175/api/employees/${employeeId}`, updatedEmployee, {
+      const response = await axios.put(`https://scrumflowpfa.tech/api/employees/${employeeId}`, updatedEmployee, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }
@@ -88,7 +88,7 @@ export const modifyEmployee = (employeeId, updatedEmployee) => {
 export const removeEmployee = (employeeId) => {
   return async (dispatch) => {
     try {
-      await axios.delete(`https://20.164.56.175/api/employees/${employeeId}`, {
+      await axios.delete(`https://scrumflowpfa.tech/api/employees/${employeeId}`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }

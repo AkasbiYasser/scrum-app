@@ -20,7 +20,7 @@ const SprintOverview = () => {
     const fetchSprints = async () => {
       try {
         const token = localStorage.getItem('token');
-        const response = await axios.get('https://20.164.56.175/api/manager/sprints', {
+        const response = await axios.get('https://scrumflowpfa.tech/api/manager/sprints', {
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -50,7 +50,7 @@ const SprintOverview = () => {
       const formattedStartDate = new Date(newSprint.startDate).toISOString();
       const formattedEndDate = new Date(newSprint.endDate).toISOString();
 
-      const response = await axios.post('https://20.164.56.175/api/manager/sprints', {
+      const response = await axios.post('https://scrumflowpfa.tech/api/manager/sprints', {
         ...newSprint,
         startDate: formattedStartDate,
         endDate: formattedEndDate
@@ -85,7 +85,7 @@ const SprintOverview = () => {
       const formattedStartDate = new Date(currentSprint.startDate).toISOString();
       const formattedEndDate = new Date(currentSprint.endDate).toISOString();
 
-      await axios.put(`https://20.164.56.175/api/manager/sprints/${currentSprint.id}`, {
+      await axios.put(`https://scrumflowpfa.tech/api/manager/sprints/${currentSprint.id}`, {
         ...currentSprint,
         startDate: formattedStartDate,
         endDate: formattedEndDate
@@ -111,7 +111,7 @@ const SprintOverview = () => {
   const handleDeleteSprint = async () => {
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`https://20.164.56.175/api/manager/sprints/${currentSprint.id}`, {
+      await axios.delete(`https://scrumflowpfa.tech/api/manager/sprints/${currentSprint.id}`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }

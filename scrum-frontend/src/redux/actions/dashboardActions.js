@@ -21,7 +21,7 @@ export const fetchTotals = () => {
     dispatch(fetchTotalsRequest());
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch('https://20.164.56.175/api/manager/totals', {
+      const response = await fetch('https://scrumflowpfa.tech/api/manager/totals', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

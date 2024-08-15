@@ -25,13 +25,13 @@ const TaskManagement = () => {
       try {
         const token = localStorage.getItem('token');
 	console.log(token);
-        const tasksResponse = await axios.get('https://20.164.56.175/api/manager/tasks', {
+        const tasksResponse = await axios.get('https://scrumflowpfa.tech/api/manager/tasks', {
           headers: { 'Authorization': `Bearer ${token}` }
         });
-        const sprintsResponse = await axios.get('https://20.164.56.175/api/manager/sprints', {
+        const sprintsResponse = await axios.get('https://scrumflowpfa.tech/api/manager/sprints', {
           headers: { 'Authorization': `Bearer ${token}` }
         });
-        const employeesResponse = await axios.get('https://20.164.56.175/api/employees', {
+        const employeesResponse = await axios.get('https://scrumflowpfa.tech/api/employees', {
           headers: { 'Authorization': `Bearer ${token}` }
         });
 
@@ -58,7 +58,7 @@ const TaskManagement = () => {
     e.preventDefault();
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.post('https://20.164.56.175/api/manager/tasks', newTask, {
+      const response = await axios.post('https://scrumflowpfa.tech/api/manager/tasks', newTask, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
 
@@ -86,7 +86,7 @@ const TaskManagement = () => {
   const fetchComments = async (taskId) => {
     try {
       const token = localStorage.getItem('token');
-      const response = await axios.get(`https://20.164.56.175/api/tasks/${taskId}/comments`, {
+      const response = await axios.get(`https://scrumflowpfa.tech/api/tasks/${taskId}/comments`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       return response.data;
@@ -99,7 +99,7 @@ const TaskManagement = () => {
   const handleUpdateTask = async () => {
     try {
       const token = localStorage.getItem('token');
-      await axios.put(`https://20.164.56.175/api/manager/tasks/${currentTask.id}`, currentTask, {
+      await axios.put(`https://scrumflowpfa.tech/api/manager/tasks/${currentTask.id}`, currentTask, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const updatedTasks = tasks.map(task => task.id === currentTask.id ? currentTask : task);
@@ -113,7 +113,7 @@ const TaskManagement = () => {
   const handleDeleteTask = async () => {
     try {
       const token = localStorage.getItem('token');
-      await axios.delete(`https://20.164.56.175/api/manager/tasks/${currentTask.id}`, {
+      await axios.delete(`https://scrumflowpfa.tech/api/manager/tasks/${currentTask.id}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const updatedTasks = tasks.filter(task => task.id !== currentTask.id);
