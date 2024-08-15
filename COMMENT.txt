@@ -1,9 +1,0 @@
-# Node.js
-/node_modules
-/back/node_modules
-/front/node_modules
-/dist
-/.env
-helo hhhhhhhhhhh
-helooooooooooooooooooooooooo
-ql3qr lq;q khd; 
