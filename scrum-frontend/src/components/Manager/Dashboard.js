@@ -25,7 +25,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchCounts = async () => {
       try {
-        const response = await axios.get('http://20.164.56.175/api/manager/count');
+        const response = await axios.get('https://20.164.56.175/api/manager/count');
         const { sprintCount, taskCount, employeeCount, completedSprints } = response.data;
         setData({
           sprintCount,

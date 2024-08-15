@@ -11,7 +11,7 @@ const Header = ({ role }) => {
   return (
     <header className="header">
       <div className="header-container">
-        <h1 className="header-title">Scrumify</h1>
+        <h1 className="header-title"> Agile ScrumFlow </h1>
         {isAuthPage && (
           <nav className="header-nav">
             <ul>
