@@ -11,18 +11,18 @@ const Header = ({ role }) => {
   return (
     <header className="header">
       <div className="header-container">
-        <h1 className="header-title"> Agile ScrumFlow </h1>
+        <h1 className="header-title">   Scrum Flow </h1>
         {isAuthPage && (
           <nav className="header-nav">
             <ul>
               {location.pathname === '/login' ? (
                 <>
                   <li><Link to="/login">Login</Link></li>
-                  <li><Link to="/register">Register</Link></li>
+                  <li><Link to="/about-us">About Us</Link></li>
                 </>
               ) : (
                 <>
-                  <li><Link to="/register">Register</Link></li>
+                  <li><Link to="/about-us">About Us</Link></li>
                   <li><Link to="/login">Login</Link></li>
                 </>
               )}

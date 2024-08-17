@@ -4,6 +4,8 @@ import axios from 'axios';
 import './EmployeeDashboard.css';
 import taskIcon from '../../icons/task-icon.png';
 import employeeIcon from '../../icons/employee-icon.png';
+import mailicon from '../../icons/mail.png';
+
 import { Bar } from 'react-chartjs-2';
 import { Paper, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -26,11 +28,11 @@ const Dashboard = () => {
   const fetchTasks = async () => {
     try {
       const token = localStorage.getItem('token');
-      const tasksResponse = await axios.get(`https://scrumflowpfa.tech/api/manager/tasks`, {
+      const tasksResponse = await axios.get(`https://scrumify.engineer/api/manager/tasks`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const assignedTasks = tasksResponse.data.filter(task => task.assignedTo === employeeId);
-      const sprintResponse = await axios.get(`https://scrumflowpfa.tech/api/manager/tasks/employee/${employeeId}/sprint-details`, {
+      const sprintResponse = await axios.get(`https://scrumify.engineer/api/manager/tasks/employee/${employeeId}/sprint-details`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
 
@@ -60,7 +62,7 @@ const Dashboard = () => {
   const fetchEmployees = async () => {
     try {
       const token = localStorage.getItem('token');
-      const employeeResponse = await axios.get(`https://scrumflowpfa.tech/api/manager/employees`, {
+      const employeeResponse = await axios.get(`https://scrumify.engineer/api/manager/employees`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       setEmployees(employeeResponse.data);
@@ -98,6 +100,10 @@ const Dashboard = () => {
         <Link to="/employee/taskboard" className="sidebar-item">
           <img src={taskIcon} alt="Gestion des tâches" />
           <span>Gestion des tâches</span>
+        </Link>
+        <Link to="/employee/contact" className="sidebar-item">
+          <img src={mailicon} alt="Contact" />
+          <span>Contact</span>
         </Link>
         <Link to="/employee/profile" className="sidebar-item">
           <img src={employeeIcon} alt="Profile" />
