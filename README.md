@@ -30,6 +30,7 @@ Pull the required Docker images from Docker Hub.
 # 2-Create a docker-compose.yml file:
 Use the following docker-compose.yml configuration to set up the application:
 
+```
 version: '3.8'
 
 services:
@@ -71,6 +72,7 @@ volumes:
 networks:
   scrum:
     driver: bridge
+```
 
 
 3-Start the Application:
