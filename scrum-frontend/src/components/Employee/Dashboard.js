@@ -28,11 +28,11 @@ const Dashboard = () => {
   const fetchTasks = async () => {
     try {
       const token = localStorage.getItem('token');
-      const tasksResponse = await axios.get(`https://scrumify.engineer/api/manager/tasks`, {
+      const tasksResponse = await axios.get(`https://scrumflowpfa.tech/api/manager/tasks`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const assignedTasks = tasksResponse.data.filter(task => task.assignedTo === employeeId);
-      const sprintResponse = await axios.get(`https://scrumify.engineer/api/manager/tasks/employee/${employeeId}/sprint-details`, {
+      const sprintResponse = await axios.get(`https://scrumflowpfa.tech/api/manager/tasks/employee/${employeeId}/sprint-details`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
 
@@ -62,7 +62,7 @@ const Dashboard = () => {
   const fetchEmployees = async () => {
     try {
       const token = localStorage.getItem('token');
-      const employeeResponse = await axios.get(`https://scrumify.engineer/api/manager/employees`, {
+      const employeeResponse = await axios.get(`https://scrumflowpfa.tech/api/manager/employees`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       setEmployees(employeeResponse.data);
