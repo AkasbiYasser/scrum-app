@@ -78,5 +78,5 @@ networks:
 3-Start the Application:
 Run the following command to build and start the containers:
 
-docker-compose up --build
+```docker-compose up --build```
 This command will launch the backend, frontend, and MongoDB services, making the application accessible locally.
