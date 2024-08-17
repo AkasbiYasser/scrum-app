@@ -17,7 +17,7 @@ const ContactForm = () => {
         const fetchEmployee = async () => {
             const token = localStorage.getItem('token');
             try {
-                const response = await axios.get(`https://scrumify.engineer/api/employees/${employeeId}`, {
+                const response = await axios.get(`https://scrumflowpfa.tech/api/employees/${employeeId}`, {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
                 setEmployee(response.data);
