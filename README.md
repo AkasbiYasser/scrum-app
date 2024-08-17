@@ -21,9 +21,11 @@ To run the application locally, follow these steps:
 Pull the Docker Images:
 Pull the required Docker images from Docker Hub.
 
-docker pull akasbiyasser/scrum-app:back-scrum
-docker pull akasbiyasser/scrum-app:front-scrum
-docker pull akasbiyasser/scrum-app:mongo-scrum
+```docker pull akasbiyasser/scrum-app:back-scrum```
+
+```docker pull akasbiyasser/scrum-app:front-scrum```
+
+```docker pull akasbiyasser/scrum-app:mongo-scrum```
 
 # 2-Create a docker-compose.yml file:
 Use the following docker-compose.yml configuration to set up the application:
