@@ -11,7 +11,7 @@ const ContactForm = () => {
     const employeeId = localStorage.getItem('employeeId');
     
     // Constante pour l'email du récepteur (manager)
-    const managerEmail = 'y.akasbi2506@uca.ac.ma'; // Remplacez par l'email réel
+    const managerEmail = 'yasserakasbi.07@gmail.com'; // Remplacez par l'email réel
 
     useEffect(() => {
         const fetchEmployee = async () => {
