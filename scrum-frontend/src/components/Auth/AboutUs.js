@@ -13,7 +13,7 @@ function AboutUs() {
     <Container maxWidth="lg" style={{ marginTop: '50px' }}>
       <Paper elevation={3} style={{ padding: '30px' }}>
         <Typography variant="h4" align="center" gutterBottom>
-          À Propos de Scrumify
+          À Propos de Scrum Flow
         </Typography>
         
         <Divider style={{ margin: '20px 0' }} />
@@ -30,17 +30,17 @@ function AboutUs() {
         <Divider style={{ margin: '20px 0' }} />
 
         <Typography variant="h5" gutterBottom>
-          Introduction à Scrumify
+          Introduction à Scrum Flow
         </Typography>
         <Typography variant="body1" paragraph>
-          Scrumify est une plateforme conçue pour optimiser la gestion des projets Scrum. En alliant technologie moderne et meilleures pratiques de l'industrie, 
-          Scrumify offre une solution complète pour la gestion de sprints et de tâches, rendant les processus plus clairs et mesurables pour tous les participants.
+          Scrum Flow est une plateforme conçue pour optimiser la gestion des projets Scrum. En alliant technologie moderne et meilleures pratiques de l'industrie, 
+          Scrum Flow offre une solution complète pour la gestion de sprints et de tâches, rendant les processus plus clairs et mesurables pour tous les participants.
         </Typography>
 
         <Divider style={{ margin: '20px 0' }} />
 
         <Typography variant="h5" gutterBottom>
-          Fonctionnalités Clés de Scrumify
+          Fonctionnalités Clés de Scrum Flow
         </Typography>
 
         <Grid container spacing={3}>
@@ -74,7 +74,7 @@ function AboutUs() {
           Ethique et Style
         </Typography>
         <Typography variant="body1" paragraph>
-          Nous croyons en la création d'un produit qui n'est pas seulement fonctionnel mais aussi éthiquement conçu. Scrumify est développé avec ReactJS, 
+          Nous croyons en la création d'un produit qui n'est pas seulement fonctionnel mais aussi éthiquement conçu. ScrumFlow est développé avec ReactJS, 
           utilisant les dernières normes du web pour garantir une expérience utilisateur fluide, accessible et réactive. Les designs sont pensés pour être inclusifs, 
           intuitifs et attrayants, avec des animations et des visuels qui facilitent la navigation et enrichissent l'expérience utilisateur.
         </Typography>
@@ -85,8 +85,8 @@ function AboutUs() {
           Engagement envers l'Excellence
         </Typography>
         <Typography variant="body1" paragraph>
-          Chez Scrumify, nous nous engageons à fournir une plateforme qui non seulement répond, mais anticipe les besoins des équipes agiles. 
-          Nous innovons constamment pour assurer que chaque fonctionnalité de Scrumify soutient parfaitement les dynamiques de travail collaboratif et agile.
+          Chez Scrum Flow, nous nous engageons à fournir une plateforme qui non seulement répond, mais anticipe les besoins des équipes agiles. 
+          Nous innovons constamment pour assurer que chaque fonctionnalité de Scrum Flow soutient parfaitement les dynamiques de travail collaboratif et agile.
         </Typography>
 
         <Divider style={{ margin: '20px 0' }} />
@@ -98,7 +98,7 @@ function AboutUs() {
         <div style={{ textAlign: 'center', marginBottom: '20px' }}>
           <Avatar 
             src={developerImage} 
-            alt="Hamza El Bellaj" 
+            alt="Akasbi Yasser" 
             style={{ width: '150px', height: '150px', margin: '0 auto' }} 
           />
         </div>
@@ -123,7 +123,7 @@ function AboutUs() {
           Contactez-Nous
         </Typography>
         <Typography variant="body1" paragraph>
-          Pour plus d'informations, ou pour débuter avec Scrumify, contactez notre équipe via notre page de contact. Nous sommes ici pour vous aider à transformer votre gestion de projet agile.
+          Pour plus d'informations, ou pour débuter avec Scrum Flow, contactez notre équipe via notre page de contact. Nous sommes ici pour vous aider à transformer votre gestion de projet agile.
         </Typography>
 
         {/* Ajout des icônes LinkedIn et Gmail */}
