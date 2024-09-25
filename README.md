@@ -82,63 +82,69 @@ Run the following command to build and start the containers:
 This command will launch the backend, frontend, and MongoDB services, making the application accessible locally.
 
 
+# Start the Application
+Run the following command to build and start the containers:
+
+```docker-compose up --build```
+
+This command will launch the backend, frontend, and MongoDB services, making the application accessible locally.
+
 # Annexe : Interfaces de l'application
+
 ## À Propos de ScrumFlow
 
 ### About us 1
-![About us 1](aboutus1.PNG)
+![About us 1](scrum-frontend/src/icons/10.PNG)
 
 ### About us 2
-![About us 2](path_to_image/20.PNG)
+![About us 2](scrum-frontend/src/icons/20.PNG)
 
 ## Interfaces Manager
 
 ### Dashboard Manager
-![Dashboard Manager](path_to_image/dashbordmana.PNG)
+![Dashboard Manager](scrum-frontend/src/icons/dashbordmana.PNG)
 
 ### Ajouter des sprints
-![Ajouter des sprints](path_to_image/sprintmana2.PNG)
+![Ajouter des sprints](scrum-frontend/src/icons/sprintmana2.PNG)
 
 ### Modifier les sprints
-![Modifier les sprints](path_to_image/tachemana5.PNG)
+![Modifier les sprints](scrum-frontend/src/icons/tachemana5.PNG)
 
 ### Gestion des sprints
-![Gestion des sprints](path_to_image/sprintmana1.PNG)
+![Gestion des sprints](scrum-frontend/src/icons/sprintmana1.PNG)
 
 ### Créer des taches
-![Créer des taches](path_to_image/tachemana2.PNG)
+![Créer des taches](scrum-frontend/src/icons/tachemana2.PNG)
 
 ### Gestion des taches
-![Gestion des taches](path_to_image/tachemana1.PNG)
+![Gestion des taches](scrum-frontend/src/icons/tachemana1.PNG)
 
 ### Vue Kanban des taches
-![Vue Kanban des taches](path_to_image/tachemana4.PNG)
+![Vue Kanban des taches](scrum-frontend/src/icons/tachemana4.PNG)
 
 ### Vue Kanban des taches 2
-![Vue Kanban des taches 2](path_to_image/tachemana3.PNG)
+![Vue Kanban des taches 2](scrum-frontend/src/icons/tachemana3.PNG)
 
 ### Ajouter un Employé
-![Ajouter un Employé](path_to_image/employemana2.PNG)
+![Ajouter un Employé](scrum-frontend/src/icons/employemana2.PNG)
 
 ### Gestion des Employés
-![Gestion des Employés](path_to_image/employemana1.PNG)
+![Gestion des Employés](scrum-frontend/src/icons/employemana1.PNG)
 
 ## Interfaces Employés
 
 ### Profil Employé
-![Profil Employé](path_to_image/interfaceempprofile.PNG)
+![Profil Employé](scrum-frontend/src/icons/interfaceempprofile.PNG)
 
 ### Dashbord Employé
-![Dashbord Employé](path_to_image/menuboardemp.PNG)
+![Dashbord Employé](scrum-frontend/src/icons/menuboardemp.PNG)
 
 ### Taches Assignées
-![Taches Assignées](path_to_image/tacheemp.PNG)
+![Taches Assignées](scrum-frontend/src/icons/tacheemp.PNG)
 
 ### Modifier l'état de la tache
-![Modifier l'état de la tache](path_to_image/tacheemp2.PNG)
+![Modifier l'état de la tache](scrum-frontend/src/icons/tacheemp2.PNG)
 
 ### Contact
-![Contact](path_to_image/interfaceempcontact.PNG)
-
-
+![Contact](scrum-frontend/src/icons/interfaceempcontact.PNG)
 
