@@ -80,3 +80,65 @@ Run the following command to build and start the containers:
 
 ```docker-compose up --build```
 This command will launch the backend, frontend, and MongoDB services, making the application accessible locally.
+
+
+# Annexe : Interfaces de l'application
+## À Propos de ScrumFlow
+
+### About us 1
+![About us 1](path_to_image/10.PNG)
+
+### About us 2
+![About us 2](path_to_image/20.PNG)
+
+## Interfaces Manager
+
+### Dashboard Manager
+![Dashboard Manager](path_to_image/dashbordmana.PNG)
+
+### Ajouter des sprints
+![Ajouter des sprints](path_to_image/sprintmana2.PNG)
+
+### Modifier les sprints
+![Modifier les sprints](path_to_image/tachemana5.PNG)
+
+### Gestion des sprints
+![Gestion des sprints](path_to_image/sprintmana1.PNG)
+
+### Créer des taches
+![Créer des taches](path_to_image/tachemana2.PNG)
+
+### Gestion des taches
+![Gestion des taches](path_to_image/tachemana1.PNG)
+
+### Vue Kanban des taches
+![Vue Kanban des taches](path_to_image/tachemana4.PNG)
+
+### Vue Kanban des taches 2
+![Vue Kanban des taches 2](path_to_image/tachemana3.PNG)
+
+### Ajouter un Employé
+![Ajouter un Employé](path_to_image/employemana2.PNG)
+
+### Gestion des Employés
+![Gestion des Employés](path_to_image/employemana1.PNG)
+
+## Interfaces Employés
+
+### Profil Employé
+![Profil Employé](path_to_image/interfaceempprofile.PNG)
+
+### Dashbord Employé
+![Dashbord Employé](path_to_image/menuboardemp.PNG)
+
+### Taches Assignées
+![Taches Assignées](path_to_image/tacheemp.PNG)
+
+### Modifier l'état de la tache
+![Modifier l'état de la tache](path_to_image/tacheemp2.PNG)
+
+### Contact
+![Contact](path_to_image/interfaceempcontact.PNG)
+
+
+
