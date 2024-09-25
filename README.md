@@ -86,7 +86,7 @@ This command will launch the backend, frontend, and MongoDB services, making the
 ## À Propos de ScrumFlow
 
 ### About us 1
-![About us 1](path_to_image/10.PNG)
+![About us 1](aboutus1.PNG)
 
 ### About us 2
 ![About us 2](path_to_image/20.PNG)
