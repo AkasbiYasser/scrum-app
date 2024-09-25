@@ -94,10 +94,10 @@ This command will launch the backend, frontend, and MongoDB services, making the
 ## À Propos de ScrumFlow
 
 ### About us 1
-![About us 1](scrum-frontend/src/icons/10.PNG)
+![About us 1](scrum-frontend/src/icons/aboutus1.PNG)
 
 ### About us 2
-![About us 2](scrum-frontend/src/icons/20.PNG)
+![About us 2](scrum-frontend/src/icons/aboutus2.PNG)
 
 ## Interfaces Manager
 
